@@ -1,0 +1,17 @@
+{
+  "name": "opencode-telegram-remote",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Control local OpenCode sessions from Telegram: native V2 plugin with dual-bot routing",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "grammy": "^1.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "5.8.3"
+  }
+}
